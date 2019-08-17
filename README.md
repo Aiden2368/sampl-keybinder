@@ -5,31 +5,31 @@ SAMPL (pronounced sample) is a free keybinder application mainly designed for GT
 
 SAMPL was build and tested around Windows 10 and requires you to have .NET framework 4.6.1 (or newer) installed in order to run.
 
-**FEATURES**
+# FEATURES
 
-    Easy to manage hotkeys
-    Bind as many hotkeys as you want
-    Target specific windows
-    Profiles
-    Load last profile on startup
-    Automatically activates hotkeys
-    Start UI minimized
-    Pause application with one single button press
-    Compatible with SAMPCAC (GTA)
-    Automatically opens chat (GTA)
-    Prevents hotkeys from being sent while typing in chat (GTA)
+* Easy to manage hotkeys
+* Bind as many hotkeys as you want
+* Target specific windows
+* Profiles
+* Load last profile on startup
+* Automatically activates hotkeys
+* Start UI minimized
+* Pause application with one single button press
+* Compatible with SAMPCAC (GTA)
+* Automatically opens chat (GTA)
+* Prevents hotkeys from being sent while typing in chat (GTA)
 
-**MEDIA**
+# MEDIA
 
 UI Screenshots: https://puu.sh/AIHRL.png
 
 YouTube showcase: youtu.be/pPXFroIh5Mg
 
-**CONTACT**
+# CONTACT
 
 Discord @ Aiden#2368.
 
-**DISCLAIMER**
+# DISCLAIMER
 
 I do not intend to make any profit with this application. All images used in this application (except the executable icon) belong to their rightful owners.
 
