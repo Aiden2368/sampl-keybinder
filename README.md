@@ -23,7 +23,7 @@ SAMPL was build and tested around Windows 10 and requires you to have .NET frame
 
 UI Screenshots: https://puu.sh/AIHRL.png
 
-YouTube showcase: youtu.be/pPXFroIh5Mg
+YouTube showcase: https://www.youtube.com/watch?v=pPXFroIh5Mg
 
 # CONTACT
 
