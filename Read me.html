@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SAMPL Keybinder</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-wdith, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,500,700|Raleway:300,400,500,700" rel="stylesheet">
+		<link rel="stylesheet" href="design.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="content" style="cursor: default;">
+				<div style="padding: 50px 0px;color: white;font-family: 'Raleway',tahoma,arial; font-size: 50px;text-align: center;font-weight: 300;">
+					<p>SAMPL Keybinder</p><br>
+					<img src="screenshot.png" ondragstart="return false;" style="box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.25);">
+				</div>
+
+				<div class="box" style="margin-top:250px;">
+					<!-- Information -->
+					<h1>Information</h2>
+					<div>
+						<span>
+							SAMPL <span class="smoltext">(pronounced sample)</span> is a free keybinder application mainly designed for GTA SA:MP but can also be used as an universal keybinder. SAMPL was build and tested around Windows 10 and requires you to have .NET framework 4.6.1 <span class="smoltext">(or newer)</span> installed in order to run.<br><br>
+
+							<!-- CONTACT -->
+							<span style="font-weight: bold; font-size: 20px;">CONTACT</span><br>
+							Since I don't have a website or social media, the only way to contact me is on Discord at <span style="color: #007ACC; font-weight: bold;">Aiden#2368</span>.
+							<br><br>Should any updates be made to this application please head to the following BitBucket repo to get an updated version <a href="https://bitbucket.org/Aiden2368/sampl-keybinder" target="_blank">https://bitbucket.org/Aiden2368/sampl-keybinder</a><br><br>
+
+							<!-- IMPORTANT -->
+							<span style="font-weight: bold; font-size: 20px;">NOTE</span><br>SAMPL was developed for the English speaking audience and their users, this is why when binding hotkeys the application is expecting you to use an US American keyboard layout. If you use a different keyboard layout other than the US American one you might experience some differences.<br><br>
+
+							<!-- DISCLAIMER -->
+							<span style="font-weight: bold; font-size: 20px;">DISCLAIMER</span><br>
+							I do not intend to make any profit with this application. All images used in this application <span class="smoltext">(except the executable icon)</span> belong to their rightful owners.							
+
+							<br><br>This application is a freeware. You have the right to redistribute and to use this application for whatever purpose you seem fit. Please do not monetize this application in any shape or form.
+					</div>
+				</div>
+				<div class="box box-margin">
+					<!-- Features -->
+					<h1>Features</h1>
+					<div>
+						<span>
+							<p>- Compatible with SAMPCAC</p>
+							<p>- Easy to manage hotkeys</p>
+							<p>- Bind as many hotkeys as you want</p>
+							<p>- Target other windows</p>
+							<p>- Automatically opens chat</p>
+							<p>- Prevents hotkeys from being sent while typing in chat</p>
+							<p>- Profiles</p>
+							<p>- Load last profile on startup</p>
+							<p>- Automatically activates hotkeys</p>
+							<p>- Start UI minimized</p>
+							<p>- Pause application with one single button press</p>
+						</span>
+					</div>
+				</div>
+				<div class="box box-margin" style="margin-top:500px;">
+					<!-- Profile -->
+					<h1>Profile</h1>
+					<div>
+						<span>
+							The <span class="keyword">PROFILE</span> tab is where you find your profiles.<br>
+							<span class="note">Saved profiles are located in <span style="font-weight: bold; color: #007ACC">%appdata%\SAMPL Keybinder\Profiles</span> incase you want to share them with your friends.</span>
+						</span>
+					</div>
+				</div>
+				<div class="box box-margin">
+					<!-- BIND -->
+					<h1>Bind</h1>
+					<div>
+						<span>
+							The <span class="keyword">BIND</span> tab is where you you can bind hotkeys. These hotkeys can be saved into a profile.
+
+							<hr>
+
+							<!-- Wildcard -->
+							<br><span style="font-weight: bold; font-size: 20px;">WILDCARD</span><br>
+							A function to prevent other held down keyboard buttons from interfering with your hotkey. Allows your hotkey to be triggered despite other keyboard buttons being "in the way".<span class="note">Good example would be when you walk down the street in GTA pressing ALT+W and you want to send a hotkey bound to (1), this wouldn't work if your hotkey wasn't a <span class="keyword">Wildcard</span>.</span>
+							<span class="note">Wildcard hotkeys are distinguished by a <b>bold font</b>.</span>
+
+							<hr>
+
+							<!-- Activated -->
+							<br><span style="font-weight: bold; font-size: 20px;">ACTIVATED</span><br>
+							Activate / deactivate your hotkey.
+							<span class="note">Deactivated hotkeys are distinguished by being <span style="color: grey;">greyed out</span>.</span>
+
+							<hr>
+
+							<!-- KEY -->
+							<br><span style="font-weight: bold; font-size: 20px;">KEY</span><br>
+							The key to bind a text output to. Just press some buttons and the application will fetch your key combination.<br>
+							<span class="note"><span class="keyword">PAUSE</span> button won't be accepted in this field. The PAUSE key is already reserved to pause/unpause the application once inside your target window.</span>
+							<span class="note">The application is expecting you to use an US American keyboard layout. If you use an other keyboard layout you might experience some differences when binding and executing a hotkey.</span>
+
+							<hr>
+
+							<!-- TEXT -->
+							<br><span style="font-weight: bold; font-size: 20px;">TEXT</span><br>
+							The text output to bind to a key.<br>
+							<span class="note">The text does not trigger other hotkeys.</span>
+							<span class="note">Incase you target GTA:SA:MP you won't need to insert <span class="keyword">T</span> infront of your text to open the chat. The application does this automatically just for GTA:SA:MP.</span>
+							<span class="note">If you're not targeting GTA:SA:MP and want the application to press the <span class="keyword">ENTER</span> button before sending the text please insert <span class="keyword">{enter}</span> at the very beginning of your text. This will tell the application to first press Enter then send your text. </span>
+							<span class="note">If you're targeting GTA:SA:MP and want to send multiple lines of text bound to one hotkey, please insert <span class="keyword">\n</span> after a sentence if you want the next sentence to be sent separately. This only applies to hotkeys whose finish is ENTER.</span>
+
+							<br>
+							<b>Example text:</b> /engine<span class="keyword">\n</span>/lights
+							<span><br>This would result in <span class="keyword">/engine</span> and <span class="keyword">/lights</span> being sent immediately after one another.</span>
+							<hr>
+
+							<!-- FINISH -->
+							<br><span style="font-weight: bold; font-size: 20px;">FINISH</span><br>
+							The action that happens after your text is sent.<br><br>
+							None => does nothing. Application is suspended and won't send any other hotkeys unless <span class="keyword">ENTER</span> or <span class="keyword">ESCAPE</span> is pressed. This temporary hotkey suspension prevents other hotkeys from being sent while typing something in chat.<br><br>
+							Enter => Presses <span class="keyword">ENTER</span> right away after the text has been sent.<br><br>
+							Offset from right => Once your text has been sent, the application will move your carret X amount of times to the left depending on your offset number. Hotkeys are temporarily suspended.
+
+							<hr>
+
+							<!-- PAUSE / CONTINUE -->
+							<br><span style="font-weight: bold; font-size: 20px;">PAUSE / CONTINUE</span><br>
+							Pauses and unpauses the application just like the <span class="keyword">PAUSE</span> button on the keyboard would.
+							<span class="note">Unlike the <span class="keyword">PAUSE</span> button on the keyboard, pressing these two buttons will always pause/unpause the application no matter which window is active.</span>
+
+							<hr>
+
+							<!-- FINAL NOTE -->
+							<br><span style="font-size: 24px;display: block; font-family: Roboto Medium,tahoma,arial;">END NOTE</span>If you want to edit an already existing hotkey, select and edit it - then hit <span class="keyword">ADD</span>. The application will overwrite everything inside the hotkey <span class="smoltext">(text, offset, finish etc.)</span> besides the key. You will have to restart the application if you want the changes to take effect.
+						</span>
+					</div>
+				</div>
+
+				<div class="box box-margin">
+					<!-- SETTINGS -->
+					<h1>Settings</h1>
+					<div>
+						<span>
+							Self explanatory for the most part.
+
+							<br><br><span style="font-weight: bold; font-size: 20px;">Target all windows¹</span><br>
+							Choose if you want the hotkeys to trigger in every window.<br>
+
+							<br><span style="font-weight: bold; font-size: 20px;">Target specific window other than SAMP¹</span><br>
+							Choose if you want the application to target an other window. Hotkeys will only trigger when your window is active.
+
+							<hr>
+							<span class="note">¹ Hotkeys won't work in SAMP due to the structure of the code and some security reasons.</span>
+						</span>
+					</div>
+				</div>
+				<div class="box box-margin">
+					<!-- RESTART -->
+					<h1>Restart</h1>
+					<div>
+						<span>In order for each hotkey change to take effect a restart is required. Click this tab and the application will restart itself. Don't forget to save your profile. <span class="note">Use the <span class="keyword">Save profile on restart</span> function if necessary.</span></span>
+					</div>
+				</div>
+
+				<div class="box box-margin">
+					<h1>Did you know?</h1>
+					<div>
+						<span>
+							If you create a file called <span class="keyword">wallpaper.txt</span> inside <span class="keyword">%appdata%\SAMPL Keybinder</span> it will allow you to set a custom wallpaper for the <span class="keyword">HOME</span> tab. After you create the file just paste in an image link from the web or an image path on your local computer. The application will then use your link or image path to fetch the wallpaper.
+
+
+							<span class="note">You can have multiple wallpapers. Simply add a new line for each link or image path</span>
+
+							<span class="note">Once multiple wallpapers are provided the application will choose a random image on each application start</span>
+
+							<span class="note">Recommended image resolution is 710x573</span>
+
+							<span class="note">Image path to your image on your local computer must be an absolute path</span>
+
+						</span>
+					</div>
+				</div>
+
+
+
+				<!-- BOTTOM SPACE -->
+				<div style="height: 500px;"></div>
+			</div>
+		</div>
+	</body>
+</html>
