@@ -33,4 +33,7 @@ Discord @ Aiden#2368.
 
 I do not intend to make any profit with this application. All images used in this application (except the executable icon) belong to their rightful owners.
 
-This application is a freeware. You have the right to redistribute and to use this application for whatever purpose you seem fit. Please do not monetize this application in any shape or form. 
+This application is a freeware. You have the right to redistribute and to use this application for whatever purpose you seem fit. Please do not monetize this application in any shape or form.
+
+# DOWNLOAD
+https://github.com/Aiden2368/sampl-keybinder/releases/download/1.3/SAMPL.Keybinder.v1.3.Installer.msi
