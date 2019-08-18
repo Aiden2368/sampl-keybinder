@@ -1,6 +1,4 @@
 # sampl-keybinder
-Free keybinder application which allows the user to bind text to hotkeys. Binding hotkeys has never been this easy!
-
 SAMPL (pronounced sample) is a free keybinder application mainly designed for GTA SA:MP but can also be used as an universal keybinder.
 
 SAMPL was build and tested around Windows 10 and requires you to have .NET framework 4.6.1 (or newer) installed in order to run.
