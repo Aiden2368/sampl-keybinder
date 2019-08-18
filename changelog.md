@@ -14,4 +14,4 @@
 
 To trigger this behaviour you need to add "**\n**" after a sentence into your text.
 
-**Example**: A text such as "/engine**\n**/lights" would result in **/engine** and **/lights** being sent into the chat after one another followed by an ENTER.
+**Example**: A text such as "/engine\n/lights" would result in **/engine** and **/lights** being sent into the chat after one another followed by an ENTER.
